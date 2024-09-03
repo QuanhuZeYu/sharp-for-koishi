@@ -17,7 +17,7 @@
     "docs-build": "node docs/build && node docs/search-index/build",
     "docs-serve": "cd docs && npx serve",
     "docs-publish": "cd docs && npx firebase-tools deploy --project pixelplumbing --only hosting:pixelplumbing-sharp",
-    "allpub": "npm run build && npm run pubgit && npm run pubnpm",
+    "allpub": "npm run pubgit && npm run pubnpm",
     "pubgit": "npm publish --registry=https://npm.pkg.github.com --access=public",
     "pubnpm": "npm publish --registry=https://registry.npmjs.org --access=public"
   },
